@@ -4,14 +4,14 @@ This repository contains the details of major project created by the students of
 <b>#NOTE</b><br>
 This repository contains the details of students under following faculty mentor only.<br>
 <ul>
-  <li>Dr. Kalpana Sagar</li>
-  <li>Ms. Neha Shukla</li>
-  <li>Ms. Pallavi Sharma</li>
-  <li>Ms. Pooja Sharma</li>
-  <li>Mr. Sreesh Gaur</li>
-  <li>Mr. Vikas Kamra</li>
-  <li>Mr. Balvidya Mitr</li>
-  <li>Mr. Gaurav Rawat</li>
+  <li>Dr. Ajay Kumar Shrivastava</li>
+  <li>Mr. Raj Kumar</li>
+  <li>Dr. Gaurav Dubey</li>
+  <li>Dr. Sapna Juneja</li>
+  <li>Dr. Harsh Khatter</li>
+  <li>Mr. Abhishek Goyal</li>
+  <li>Ms. Anshula Gupta</li>
+  <li>Mr. Harsh Vardhan</li>
 </ul>
   
 <b>#How to access</b><br>
@@ -25,7 +25,7 @@ This repository contains the details of students under following faculty mentor 
 
 <b>#Student Data</b><br>
 Folders of following project Ids has been created.<br>
-	<table>
+<table>
 		<thead>
 			<tr>
 				<th>S. No.</th>
@@ -36,8 +36,8 @@ Folders of following project Ids has been created.<br>
 		<tbody>
 			<tr>
 				<td>&nbsp;1</td>
-				<td><span style="color: rgb(0, 0, 0); font-family: docs-Calibri; font-size: 15px; font-style: normal; font-weight: 700; white-space: pre-wrap;">PCS23-9</span></td>
-				<td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;MR. HARSH KHATTER&quot;}" data-sheets-userformat="{&quot;2&quot;:12782,&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:1,&quot;10&quot;:2,&quot;11&quot;:4,&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:12}" style="color: rgb(0, 0, 0); font-style: normal; font-weight: normal; font-size: 12pt; font-family: Calibri, Arial;">DR. SAPNA JUNEJA</span></td>
+				<td><span style="color: rgb(0, 0, 0); font-family: docs-Calibri; font-size: 15px; font-style: normal; font-weight: 700; white-space: pre-wrap;">PCS23-1</span>&nbsp;</td>
+				<td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;MR. HARSH KHATTER&quot;}" data-sheets-userformat="{&quot;2&quot;:12782,&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:1,&quot;10&quot;:2,&quot;11&quot;:4,&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:12}" style="color: rgb(0, 0, 0); font-style: normal; font-weight: normal; font-size: 12pt; font-family: Calibri, Arial;">MR. HARSH KHATTER</span>&nbsp;</td>
 			</tr>
 			<tr>
 				<td>&nbsp;2</td>
@@ -46,13 +46,13 @@ Folders of following project Ids has been created.<br>
 			</tr>
 			<tr>
 				<td>&nbsp;3</td>
-				<td>&nbsp;PCS23-57</td>
-				<td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;MR. HARSH KHATTER&quot;}" data-sheets-userformat="{&quot;2&quot;:12782,&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:1,&quot;10&quot;:2,&quot;11&quot;:4,&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:12}" style="color: rgb(0, 0, 0); font-style: normal; font-weight: normal; font-size: 12pt; font-family: Calibri, Arial;">DR. SAPNA JUNEJA<span style="color: rgb(49, 48, 48); font-family: BlinkMacSystemFont, -apple-system, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-style: normal; font-weight: 400;">&nbsp;</span></span>&nbsp;</td>
+				<td>&nbsp;PCS23-4</td>
+				<td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;MR. HARSH KHATTER&quot;}" data-sheets-userformat="{&quot;2&quot;:12782,&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:1,&quot;10&quot;:2,&quot;11&quot;:4,&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:12}" style="color: rgb(0, 0, 0); font-style: normal; font-weight: normal; font-size: 12pt; font-family: Calibri, Arial;">MR. HARSH KHATTER</span>&nbsp;</td>
 			</tr>
 			<tr>
 				<td>4&nbsp;</td>
-				<td>&nbsp;PCS23-1</td>
-				<td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;MR. HARSH KHATTER&quot;}" data-sheets-userformat="{&quot;2&quot;:12782,&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:1,&quot;10&quot;:2,&quot;11&quot;:4,&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:12}" style="font-style: normal; font-weight: normal; font-size: 12pt; color: rgb(0, 0, 0); font-family: Calibri, Arial;">MR. HARSH KHATTER</span><span style="font-style: normal; font-weight: 400;">&nbsp;</span>&nbsp;</td>
+				<td>&nbsp;PCS23-9</td>
+				<td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;DR. SAPNA JUNEJA&quot;}" data-sheets-userformat="{&quot;2&quot;:12782,&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:1,&quot;10&quot;:2,&quot;11&quot;:4,&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:12}" style="color: rgb(0, 0, 0); font-style: normal; font-weight: normal; font-size: 12pt; font-family: Calibri, Arial;">DR. SAPNA JUNEJA</span>&nbsp;</td>
 			</tr>
 			<tr>
 				<td>&nbsp;5</td>
@@ -66,8 +66,8 @@ Folders of following project Ids has been created.<br>
 			</tr>
 			<tr>
 				<td>7&nbsp;</td>
-				<td><span style="color: rgb(0, 0, 0); font-family: docs-Calibri; font-size: 15px; font-style: normal; font-weight: 700; white-space: pre-wrap;">PCS23-4</span>&nbsp;</td>
-				<td><span style="color: rgb(0, 0, 0); font-family: Calibri, Arial; font-style: normal; font-weight: 400;">MR. HARSH KHATTER</span>&nbsp;</td>
+				<td><span style="color: rgb(0, 0, 0); font-family: docs-Calibri; font-size: 15px; font-style: normal; font-weight: 700; white-space: pre-wrap;">PCS23-57</span>&nbsp;</td>
+				<td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;DR. SAPNA JUNEJA&quot;}" data-sheets-userformat="{&quot;2&quot;:12782,&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16777215},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:2}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;9&quot;:1,&quot;10&quot;:2,&quot;11&quot;:4,&quot;15&quot;:&quot;Calibri&quot;,&quot;16&quot;:12}" style="color: rgb(0, 0, 0); font-style: normal; font-weight: normal; font-size: 12pt; font-family: Calibri, Arial;">DR. SAPNA JUNEJA</span>&nbsp;</td>
 			</tr>
 			<tr>
 				<td>8&nbsp;</td>

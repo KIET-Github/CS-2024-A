@@ -219,5 +219,3 @@ Folders of following project Ids has been created.<br>
 		</tr>
 	</tbody>
 </table>
-		</tbody>
-	</table>

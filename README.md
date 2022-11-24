@@ -177,7 +177,14 @@ Folders of following project Ids has been created.<br>
 		</tbody>
 	</table>
 <TABLE>
-	<td> 29 </td>
-	<td> PCS24-71 </td>
-	<td> MR HARSHVARDHAN </td>
+	<tr>
+		<td> 29 </td>
+		<td> PCS24-71 </td>
+		<td> MR HARSHVARDHAN </td>
+	</tr?
+	<tr>	
+		<td> 30 </td>
+		<td> PCS24-07 </td>
+		<td> DR HARSH KHATTER </td>
+	</tr>
 </TABLE>

@@ -181,10 +181,15 @@ Folders of following project Ids has been created.<br>
 		<td> 29 </td>
 		<td> PCS24-71 </td>
 		<td> MR HARSHVARDHAN </td>
-	</tr?
+	</tr>
 	<tr>	
 		<td> 30 </td>
 		<td> PCS24-07 </td>
 		<td> DR HARSH KHATTER </td>
 	</tr>
+	<tr>	
+		<td> 31 </td>
+		<td> PCS24-39 </td>
+		<td> MR ABHISHEK GOYAL </td>
+	</tr>	
 </TABLE>

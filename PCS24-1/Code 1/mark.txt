@@ -1,0 +1,11 @@
+EMPLOYEE IDS:
+        ADMINS:
+                SUPER_ADMIN:            000
+                PRODUCT_CONTROLLER:     100
+                FEEDBACK_ADMIN:         200
+                MANAGER:                300
+                DELIVERY:               400
+
+Product UID:
+        brand_id + product_id + batch_id + p_id
+        5 + 6 + 5 + 8

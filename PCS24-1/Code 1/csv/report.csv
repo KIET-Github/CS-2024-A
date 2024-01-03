@@ -1,0 +1,6 @@
+uid,product_id,retailer_id,report_time,ticket_no,customer_name,customer_email,message,image,shop_name,ticket_status,reason
+12345,P456,R789,2023-09-23 10:15:00,T001,John Doe,john.doe@example.com,"I received a damaged product.",coat1.jpeg,XYZ Electronics,OPEN,BAD QUALITY
+23456,P789,R123,2023-09-22 14:30:00,T002,Alice Smith,alice.smith@example.com,"Missing items in my order.",m_shirt_1.jpeg,ABC Supermarket,CLOSED,DUPLICATE
+34567,P123,R456,2023-09-21 09:45:00,T003,Sarah Johnson,sarah.johnson@example.com,"Wrong product delivered.",w_pants1.jpeg,Fashion Trends,OPEN,RESELL
+45678,P987,R789,2023-09-20 16:20:00,T004,David Brown,david.brown@example.com,"Request for a refund.",w_pants1.jpeg,Home Essentials,OPEN,RESELL
+56789,P456,R123,2023-09-19 11:55:00,T005,Emily Wilson,emily.wilson@example.com,"Change in shipping address required.",sample.png,Book Emporium,CLOSED,DUPLICATE

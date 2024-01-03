@@ -1,0 +1,111 @@
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3498DB;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    margin-bottom: 3%;
+  }
+  
+  .logo-container img {
+    max-width: 80px;
+  }
+  
+  .dashboard-title {
+    margin: 0;
+    font-size: 25px; /* Reduced font size */
+    color:#FFFFFF;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    background-color: transparent;
+    color: inherit;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    color: #333333;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;  
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .logout-button {
+    color: #DC3545;
+  }
+
+
+
+    /* Responsive Section */
+  /* Mobile devices */
+  @media screen and (max-width: 767px) {
+    .dashboard-header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .logo-container img {
+      max-width: 60px;
+    }
+  
+    .dashboard-title {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .dropdown-content {
+      top: auto;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      min-width: 100%;
+      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  /* Tablets */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .dashboard-header {
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Larger Screens (laptops and desktops) */
+  @media screen and (min-width: 1024px) {
+    .dashboard-header {
+      padding: 5px 40px; /* Increased padding */
+    }
+  }

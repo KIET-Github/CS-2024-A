@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TC ADMIN</title>
+  <link rel="stylesheet" type="text/css" href="../css/delivery.css">
+  <link rel="stylesheet" href="../css/admin_header.css">
+  <link rel="stylesheet" href="../css/admin_footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" type="image/ico" href="../images/template/favicon.ico">
+</head>
+<body>
+  <header class="dashboard-header">
+    <div class="logo-container">
+      <img src="../images/template/logo.png" alt="Company Logo">
+    </div>
+    <h1 class="dashboard-title">DELIVERY AGENT</h1>
+    <div class="dropdown">
+      <button class="dropdown-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="photo-container">
+          <img src="../images/employee/201862.png" alt="Employee Photo" width="240" height="60">
+        </div>
+        <p id="ename">Name</p>
+        <p id="email">Email</p>
+        <p id="emp-id"></p>
+        <p id="e-designation">Designation</p>
+        <!-- <a href="../pages/feedback.html">Feedback Portal</a> -->
+        <!-- <a href="../pages/report_portal.html">Report Portal</a> -->
+        <a href="#" class="logout-button">Logout</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="main-section">
+  <h2>Delivery Details</h2>
+  <br>
+  <form id="delivery-form">
+      <div class="form-group">
+          <label for="retailer-id">Retailer ID:</label>
+          <input type="text" id="retailer-id" name="retailer-id" placeholder="Enter Retailer ID" required>
+      </div>
+      <div class="form-group">
+          <label for="box-number">Box Number:</label>
+          <input type="text" id="box-number" name="box-number" placeholder="Enter Box Number" required>
+      </div>
+      <button type="submit">Submit</button>
+  </form>
+</section>
+
+
+  <footer class="footer">
+    <p>In case of any queries:</p>
+    <p>Contact us at company@example.com | Phone: 123-456-7890</p>
+  </footer>
+
+  <script src="../js/delivery.js"></script>
+  <script src="../js/admin_header.js"></script>
+</body>
+</html>
+  

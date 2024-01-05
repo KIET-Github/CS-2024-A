@@ -12,6 +12,7 @@ This repository contains the details of students under following faculty mentor 
   <li>Mr. Abhishek Goyal</li>
   <li>Ms. Anshula Gupta</li>
   <li>Mr. Harsh Vardhan</li>
+  <li>Mr. Amit Kumar Sanger</li>
 </ul>
   
 <b>#How to access</b><br>
@@ -206,5 +207,10 @@ Folders of following project Ids has been created.<br>
 		<td> 34 </td>
 		<td> PCS24-26 </td>
 		<td> MS SAPNA JUNEJA </td>
+	</tr>
+	<tr>	
+		<td> 35 </td>
+		<td> PCS24-19 </td>
+		<td> Mr Amit Kumar Sanger </td>
 	</tr>
 </TABLE>

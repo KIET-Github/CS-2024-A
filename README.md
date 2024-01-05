@@ -7,12 +7,11 @@ This repository contains the details of students under following faculty mentor 
   <li>Dr. Ajay Kumar Shrivastava</li>
   <li>Mr. Raj Kumar</li>
   <li>Dr. Gaurav Dubey</li>
-  <li>Dr. Sapna Juneja</li>
   <li>Dr. Harsh Khatter</li>
   <li>Mr. Abhishek Goyal</li>
   <li>Ms. Anshula Gupta</li>
-  <li>Mr. Harsh Vardhan</li>
-  <li>Mr. Amit Kumar Sanger</li>
+  <li>Ms. Neha Shukla</li>
+  <li>Mr. Anurag Tewari</li>
 </ul>
   
 <b>#How to access</b><br>
@@ -91,7 +90,7 @@ Folders of following project Ids has been created.<br>
       <td>Dr Gaurav Dubey</td>
     </tr>
 <tr>
-    <td>1</td>
+    <td>9</td>
     <td>PCS24-1</td>
     <td>Dr. Harsh Khatter</td>
 </tr>
@@ -101,7 +100,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>2</td>
+    <td>10</td>
     <td>PCS24-3</td>
     <td>Dr. Harsh Khatter</td>
 </tr>
@@ -111,7 +110,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>3</td>
+    <td>11</td>
     <td>PCS24-6</td>
     <td>Dr. Harsh Khatter</td>
 </tr>
@@ -121,7 +120,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>4</td>
+    <td>12</td>
     <td>PCS24-9</td>
     <td>Dr. Harsh Khatter</td>
 </tr>
@@ -131,7 +130,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>5</td>
+    <td>13</td>
     <td>PCS24-13</td>
     <td>Dr. Harsh Khatter</td>
 </tr>
@@ -141,7 +140,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>6</td>
+    <td>14</td>
     <td>PCS24-11</td>
     <td>Mr. Abhishek Goyal</td>
 </tr>
@@ -151,7 +150,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>7</td>
+    <td>15</td>
     <td>PCS24-37</td>
     <td>Mr. Abhishek Goyal</td>
 </tr>
@@ -161,7 +160,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>8</td>
+    <td>16</td>
     <td>PCS24-43</td>
     <td>Mr. Abhishek Goyal</td>
 </tr>
@@ -171,7 +170,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>9</td>
+    <td>17</td>
     <td>PCS24-46</td>
     <td>Mr. Abhishek Goyal</td>
 </tr>
@@ -181,7 +180,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>10</td>
+    <td>18</td>
     <td>PCS24-05</td>
     <td>Ms. Anshula Gupta</td>
 </tr>
@@ -191,7 +190,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>11</td>
+    <td>19</td>
     <td>PCS24-49</td>
     <td>Ms. Anshula Gupta</td>
 </tr>
@@ -201,7 +200,7 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>12</td>
+    <td>20</td>
     <td>PCS24-60</td>
     <td>Ms. Anshula Gupta</td>
 </tr>
@@ -211,12 +210,12 @@ Folders of following project Ids has been created.<br>
     <td></td>
 </tr>
 <tr>
-    <td>13</td>
+    <td>21</td>
     <td>PCS24-62</td>
     <td>Ms. Anshula Gupta</td>
 </tr>
 <tr>
-  <td>1</td>
+  <td>22</td></td>
   <td>PCS24-07</td>
   <td>Ms Neha Shukla</td>
 </tr>
@@ -226,7 +225,7 @@ Folders of following project Ids has been created.<br>
   <td></td>
 </tr>
 <tr>
-  <td>2</td>
+  <td>23</td>
   <td>PCS24-58</td>
   <td>Ms Neha Shukla</td>
 </tr>
@@ -236,7 +235,7 @@ Folders of following project Ids has been created.<br>
   <td></td>
 </tr>
 <tr>
-  <td>3</td>
+  <td>24</td>
   <td>PCS24-75</td>
   <td>Ms Neha Shukla</td>
 </tr>
@@ -246,7 +245,7 @@ Folders of following project Ids has been created.<br>
   <td></td>
 </tr>
 <tr>
-  <td>4</td>
+  <td>25</td>
   <td>PCS24-29</td>
   <td>Mr Anurag Tewari</td>
 </tr>

@@ -1,0 +1,15 @@
+FROM node:16.15.0
+
+LABEL author="Ayush Singh"
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm i
+
+COPY . .
+
+EXPOSE 5050
+
+CMD ["npm","run","dev"]

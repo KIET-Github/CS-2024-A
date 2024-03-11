@@ -1,0 +1,9 @@
+.git
+node_modules
+.dockerignore
+.eslintrc.json
+.gitignore
+dockerfile
+.dockerignore
+README.md
+package-lock.json

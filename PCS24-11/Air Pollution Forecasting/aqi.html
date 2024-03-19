@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Pollution Forecasting in NCR</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003f5c;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 20px 0;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .aqi-prediction-form {
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0058a1;
+        }
+
+        p#prediction_text {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        /* AQI color categories */
+        .aqi-good {
+            background-color: #00e400;
+            color: #000;
+        }
+
+        .aqi-moderate {
+            background-color: #ffbb00;
+            color: #000;
+        }
+
+        .aqi-Poor {
+            background-color:Orange;
+            color: #fff;
+        }
+          .aqi-Unhealthy {
+            background-color: Red;
+            color: #fff;
+        }
+         .aqi-Very Unhealthy {
+            background-color:Purple;
+            color: #fff;
+        }
+        .aqi-hazardous {
+            background-color: Maroon;
+            color: #fff;
+        }
+
+        #map {
+            height: 400px;
+        }
+    </style>
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+</head>
+<body>
+    <header>
+        <h1>Air Pollution Forecasting in NCR</h1>
+    </header>
+    <div class="content">
+        <div class="aqi-prediction-form">
+            <form id="aqi-form" method="POST" action="/predict">
+                <label for="SO2i">SO2i: </label>
+                <input type="text" name="SO2i" required><br>
+
+                <label for="NO2i">NO2i: </label>
+                <input type="text" name="NO2i" required><br>
+
+                <label for="O3i">O3i: </label>
+                <input type="text" name="O3i" required><br>
+
+                <label for="PM25i">PM25i: </label>
+                <input type="text" name="PM25i" required><br>
+
+                <label for="PM10i">PM10i: </label>
+                <input type="text" name="PM10i" required><br>
+
+                <label for="COi">COi: </label>
+                <input type="text" name="COi" required><br>
+
+                <input type="submit" value="Predict AQI">
+            </form>
+            <p id="prediction_text"></p>
+
+    </div>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Leaflet JavaScript -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    ></script>
+    <script>
+        // JavaScript code
+        document.getElementById("aqi-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const form = event.target;
+            const formData = new FormData(form);
+            const inputValues = Array.from(formData.values());
+
+            // Replace with your actual prediction logic
+            const aqi = Math.floor(Math.random() * 500);
+
+            // Display AQI category and set appropriate class
+            let aqiCategory;
+            if (aqi >= 0 && aqi <= 50) {
+                aqiCategory = "Good";
+                document.getElementById("prediction_text").classList.add("aqi-good");
+            } else if (aqi >= 51 && aqi <= 100) {
+                aqiCategory = "Moderate";
+                document.getElementById("prediction_text").classList.add("aqi-moderate");
+            } else if (aqi >= 101 && aqi <= 200) {
+                aqiCategory = "Poor";
+                document.getElementById("prediction_text").classList.add("aqi-Poor");
+            } else if (aqi >= 200 && aqi <=300){
+            aqiCategory = "Unhealthy";
+                document.getElementById("prediction_text").classList.add("aqi-Unhealthy");
+             }    else if (aqi >= 300 && aqi <=400){
+            aqiCategory = "Very Unhealthy";
+                document.getElementById("prediction_text").classList.add("aqi-Very Unhealthy");
+             }
+            else {
+                aqiCategory = "Hazardous";
+                document.getElementById("prediction_text").classList.add("aqi-hazardous");
+            }
+
+            document.getElementById("prediction_text").innerText = `Predicted AQI: ${aqi} (${aqiCategory})`;
+
+            // Here you can add code to update the map with air pollution data
+        });
+
+        // Initialize the map
+        const map = L.map('map').setView([28.6139, 77.2090], 10); // Set initial coordinates and zoom level
+
+        // Add a base map layer (e.g., OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // You can add markers, polygons, and more to the map as needed
+        // For example:
+        L.marker([28.6139, 77.2090]).addTo(map)
+            .bindPopup('National Capital Region (NCR)')
+            .openPopup();
+    </script>
+</body>
+</html>

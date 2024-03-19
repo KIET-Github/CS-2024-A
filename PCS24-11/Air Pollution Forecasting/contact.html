@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js"></script>
+    <title>Contact Us</title>
+</head>
+<body style="background-image: url('po.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-color: #f2f2f2;">
+    <header>
+        
+    </header>
+    <main>
+        <section class="contact-container">
+            <h1>Contact Us</h1>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+            <div id="confirmation-message"></div>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <p>&copy; 2023 Air Pollution Forecasting. All rights reserved.</p>
+    </footer>
+</body>
+</html>

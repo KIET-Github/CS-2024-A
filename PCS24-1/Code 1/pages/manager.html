@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MANAGER</title>
+  <link rel="stylesheet" type="text/css" href="../css/manager.css">
+  <link rel="stylesheet" href="../css/admin_header.css">
+  <link rel="stylesheet" href="../css/admin_footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" type="image/ico" href="../images/template/favicon.ico">
+</head>
+<body>
+  <header class="dashboard-header">
+    <div class="logo-container">
+      <img src="../images/template/logo.png" alt="Company Logo">
+    </div>
+    <h1 class="dashboard-title">MANAGER</h1>
+    <div class="dropdown">
+      <button class="dropdown-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="photo-container">
+          <img src="../images/employee/201862.png" alt="Employee Photo" width="240" height="60">
+        </div>
+        <p id="ename">Name</p>
+        <p id="email">Email</p>
+        <p id="emp-id"></p>
+        <p id="e-designation">Designation</p>
+        <!-- <a href="../pages/feedback.html">Feedback Portal</a> -->
+        <!-- <a href="../pages/report_portal.html">Report Portal</a> -->
+        <a href="#" class="logout-button">Logout</a>
+      </div>
+    </div>
+  </header>
+<!-- 
+  <button id="getDataBtn">Get Data from MySQL</button>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script> -->
+  
+  <main class="content">
+    <div class="tab-container">
+      <button class="tab-button" onclick="openTab('addEmployeeTab')">Add Employee</button>
+      <button class="tab-button active" onclick="openTab('addRetailerTab')">Add Retailer</button>
+      <!-- Add other tab buttons here if needed -->
+    </div>
+
+    <div id="addEmployeeTab" class="tab-content active">
+      <!-- <h3>Add Employee</h3> -->
+      <form id="addEmployeeForm">
+        <label for="employeeId">Employee ID:</label>
+        <input type="text" id="employeeId" name="employeeId" required><br><br>
+        
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="userGroup">User Group:</label>
+        <select id="userGroup" name="userGroup" required>
+          <option value="SuperAdmin">SuperAdmin</option>
+          <option value="Manager">Manager</option>
+          <option value="ProductController">Product Controller</option>
+          <option value="FeedbackAdmin">Feedback Admin</option>
+          <option value="DeliveryAgent">Delivery Agent</option>
+        </select><br><br>
+        
+        <input type="submit" value="Add Employee">
+      </form>
+    </div>
+    
+
+    <div id="addRetailerTab" class="tab-content">
+      <!-- <h2>Add Retailer</h2> -->
+      <div class="form-container">
+        <form id="addRetailerForm">
+          <label for="retailerId">Retailer ID:</label>
+          <input type="text" id="retailerId" name="retailerId" required><br><br>
+    
+          <label for="retailerName">Retailer Name:</label>
+          <input type="text" id="retailerName" name="retailerName" required><br><br>
+    
+          <label for="retailerRegion">Retailer Region:</label>
+          <input type="text" id="retailerRegion" name="retailerRegion" required><br><br>
+    
+          <label for="retailerState">Retailer State:</label>
+          <input type="text" id="retailerState" name="retailerState" required><br><br>
+    
+          <label for="retailerAddress">Retailer Address:</label>
+          <input type="text" id="retailerAddress" name="retailerAddress" required><br><br>
+    
+          <label for="retailerContact">Retailer Contact:</label>
+          <input type="text" id="retailerContact" name="retailerContact" required><br><br>
+    
+          <input type="submit" value="Add Retailer">
+        </form>
+      </div>
+    </div>
+    
+</main>
+
+
+  <footer class="footer">
+    <p>In case of any queries:</p>
+    <p>Contact us at company@example.com | Phone: 123-456-7890</p>
+  </footer>
+
+  <script src="../js/manager.js"></script>
+  <script src="../js/admin_header.js"></script>
+</body>
+</html>
+  

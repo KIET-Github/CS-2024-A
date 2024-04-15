@@ -1,0 +1,87 @@
+  <!DOCTYPE html>
+  <html> 
+  <head>
+    <title>Report</title>
+    <link rel="stylesheet" type="text/css" href="../css/report.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/user_header.css">
+    <link rel="stylesheet" href="../css/user_footer.css">
+    <link rel="icon" type="image/ico" href="../images/template/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <header class="dashboard-header">
+      <div class="logo-container">
+        <img src="../images/template/logo.png" alt="Company Logo">
+      </div>
+          <h1 class="dashboard-title">Customer Report</h1>
+      <div class="dropdown">
+        <button class="dropdown-button">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../pages/scanner.html">TC-Scanner</a>
+          <!-- <a href="../pages/report.html">Report</a> -->
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="report-container">
+          <!-- <h1>Customer Report</h1> -->
+          <p>Please provide us with following details to report counterfeiting:</p><br>
+          <form action="/submit_report" method="POST">
+            <p>Please select the reason for reporting:</p>
+            <div class="radio-section">
+              <div class="radio-section">
+                <!-- New div container for radio buttons -->
+                <div class="radio-group">
+                  <input type="radio" id="bad-quality" name="report_reason" value="Bad Quality" required>
+                  <label for="bad-quality">Bad Quality</label>
+          
+                  <input type="radio" id="duplicate" name="report_reason" value="Duplicate" required>
+                  <label for="duplicate">Duplicate</label>
+          
+                  <input type="radio" id="reselling" name="report_reason" value="Re Selling" required>
+                  <label for="reselling">Re Selling</label>
+                </div>
+            
+              <label for="store-name">Name of Store:</label>
+              <input type="text" id="store-name" name="store-name" required>
+              
+              <label for="store-name">Product UID:</label>
+              <input type="text" id="store-id" name="store-id" required>
+
+              <label for="product-name">Product Name:</label>
+              <input type="text" id="prod-name" name="prod-name" required>
+
+              <label for="user-name">Your Full Name:</label>
+              <input type="text" id="u-name" name="u-name" required>
+
+              <label for="email">Your Email:</label>
+              <input type="email" id="u-email" name="u-email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="u-message" name="u-message" rows="4" required maxlength="250"></textarea>
+
+              <label for="image-upload">Upload an Image (Max File Size: 2MB):</label>
+              <input type="file" id="image-upload" name="image" accept="image/*" size="2097152" required>
+  
+              <center>
+                <button type="submit">Submit Report</button>
+              </center>
+          </form>
+      </div>
+    </main> 
+
+    <footer class="footer">
+      <p>In case of any queries:</p>
+      <p>Contact us at company@example.com | Phone: 123-456-7890</p>
+    </footer>
+
+    
+    <script src="../js/report.js"></script>
+  </body>
+  </html>
+    

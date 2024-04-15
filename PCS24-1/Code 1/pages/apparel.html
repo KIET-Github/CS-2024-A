@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/instascan@1.0.0/instascan.min.js"></script>
+    <title>Apparel Info</title>
+    <link rel="stylesheet" href="../css/apparel.css">
+    <link rel="stylesheet" href="../css/user_header.css">
+    <link rel="stylesheet" href="../css/user_footer.css">
+    <link rel="icon" type="image/ico" href="../images/template/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="logo-container">
+          <img src="../images/template/logo.png" alt="Company Logo">
+        </div>
+        <h1 class="dashboard-title">Apparel Info</h1>
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../pages/scanner.html">TC-Scanner</a>
+            <a href="../pages/report.html">Report</a>
+          </div>
+        </div>
+      </header>
+
+    <div class="input-area" id="input-area">
+        <button type="button" id="generateButton">Generate</button>
+        <input type="text" id="uid-input" placeholder="Enter your information here" disabled>
+    </div>
+    <button type="button" id="generateBtn"><a href="map.html"> Epicenters</a></button><br><br>
+    
+
+    <h3><center>Product Details</center></h3>
+    <section class="container detail-info">
+        <div class="product-info">
+            <img src="photo/coat1.jpeg" alt="Product Image" class="apparel-pic" id="apparel-pic">
+            <div class="details">
+                <div class="label">
+                    <div class="detail-info">
+                        <strong>Product Name:</strong>
+                        <label for="product-name" id="product-name"></label>
+                    </div>
+                    <div class="detail-info">
+                        <strong>Retailer Name:</strong>
+                        <label for="retailer-name" id="retailer-name"></label>
+                    </div>
+                    <div class="detail-info">
+                        <strong>Brand Name:</strong>
+                        <label for="brand-name" id="brand-name"></label>
+                    </div>
+                    <div class="detail-info">
+                        <strong>Batch Name:</strong>
+                        <label for="batch-name" id="batch-name"></label>
+                    </div>
+                </div>
+            </div>
+            <span class="rep-btn">
+                <button class="sold-status-button" id="sold-status-button">Sold Status</button>
+                <a href="report.html" class="report-button">Report</a>
+            </span>
+        </div>
+    </section>
+
+    <section>
+        <h3><center>Feedback</center></h3>
+        <div class="container feedback">
+            <div class="rating">
+                <label for="star-rating">Rate this product:</label>
+                <div class="stars" id="star-rating">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+            </div>
+            
+              
+            <div>
+                <label for="u-name" id="u-name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="u-email" id="u-email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="prod-name" id="prod-name">Product Name:</label>
+                <input type="text" id="p-name" placeholder="Enter Product Name">
+            </div>
+            <div>
+                <label for="p-uid" id="p-uid">Product UID:</label>
+                <input type="text" id="p-id" placeholder="Enter Product id">
+            </div>
+            <textarea rows="4" placeholder="Enter your feedback here"></textarea>
+            <button type="submit">Submit Feedback</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>In case of any queries:</p>
+        <p>Contact us at company@example.com | Phone: 123-456-7890</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script> <!-- Added: Link to PapaParse library -->
+    <script src="../js/apparel.js"></script>
+</body>
+</html>

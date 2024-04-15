@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TC ADMIN</title>
+  <link rel="stylesheet" type="text/css" href="../css/product_controller.css">
+  <link rel="stylesheet" href="../css/admin_header.css">
+  <link rel="stylesheet" href="../css/admin_footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" type="image/ico" href="../images/template/favicon.ico">
+</head>
+<body>
+  <header class="dashboard-header">
+    <div class="logo-container">
+      <img src="../images/template/logo.png" alt="Company Logo">
+    </div>
+    <h1 class="dashboard-title">PRODUCT CONTROLLER</h1>
+    <div class="dropdown">
+      <button class="dropdown-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="photo-container">
+          <img src="../images/employee/201862.png" alt="Employee Photo" width="240" height="60">
+        </div>
+        <p id="ename">Name</p>
+        <p id="email">Email</p>
+        <p id="emp-id"></p>
+        <p id="e-designation">Designation</p>
+        <!-- <a href="../pages/feedback.html">Feedback Portal</a> -->
+        <!-- <a href="../pages/report_portal.html">Report Portal</a> -->
+        <a href="#" class="logout-button">Logout</a>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <div class="tab-container">
+      <button class="tab-button active" onclick="openTab('tab1')">Add Products</button>
+      <button class="tab-button" onclick="openTab('tab2')">Add Apparels</button>
+      <!-- <button class="tab-button" onclick="openTab('tab3')">Vi</button> -->
+
+    </div>
+  
+    <div id="tab1" class="tab-content active">
+      <h2>Add Products</h2>
+      <br>
+      <form id="productForm" enctype="multipart/form-data">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required><br><br>
+    
+        <label for="productId">Product Id:</label>
+        <input type="text" id="productId" name="productId" required><br><br>
+    
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required><br><br>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  <div id="tab2" class="tab-content">
+        <h2>Add Apparels</h2>
+      <br>
+        <form id="productIdCheckForm">
+          <label for="productId">Product Id:</label>
+          <input type="text" id="productId" name="productId" required><br><br>
+          <input type="submit" value="Check" onclick="onCheck()">
+        </form>
+      <br><br>
+        <form id="apparelForm">
+          <label for="batch">Batch:</label>
+          <input type="text" id="batch" name="batch" required><br><br>
+      
+          <label for="number">Number:</label>
+          <input type="text" id="number" name="number" required><br><br>
+      
+          <label for="boxNo">Box No:</label>
+          <input type="text" id="boxNo" name="boxNo" required><br><br>
+      
+          <input type="submit" value="Submit">
+        </form>      
+    </div>
+    <div id="tab3" class="tab-content">
+      <h2>Tab 3 Content</h2>
+      <!-- Add your content for Tab 3 here -->
+    </div>
+  </main>  
+
+
+  <footer class="footer">
+    <p>In case of any queries:</p>
+    <p>Contact us at company@example.com | Phone: 123-456-7890</p>
+  </footer>
+
+  <script src="../js/product_controller.js"></script>
+  <script src="../js/admin_header.js"></script>
+</body>
+</html>
+  

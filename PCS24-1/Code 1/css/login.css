@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3498DB;
+}
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  max-width: 200px; 
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3498DB;
+}
+
+.login-container {
+  border: 1px solid #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+.success-message {
+  color: #28A745; 
+}
+
+.error-message {
+  color: #DC3545; 
+}
+
+.password-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.password-container input[type="password"] {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  width: 90%;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.password-toggle i {
+  font-size: 16px;
+}
+
+.password-container input[type="checkbox"] {
+  position: absolute;
+  top: auto;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border: 2px solid #cccccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="text"]:hover {
+  border-color: #007BFF;
+}
+
+
+#caps-lock-warning {
+  display: none;
+  color: #DC3545;
+  font-size: 12px;
+  margin-bottom: 1%;
+  text-align: center;
+}

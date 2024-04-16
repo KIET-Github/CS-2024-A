@@ -1,3 +1,43 @@
-PPROJECT LINK :
+# PROJECT LINK :
 
 https://github.com/Srivastava0109Yash/AI-Assissted-Plant-Disease-Detection-Crop-and-Fertilizer-Recommender-System
+
+# AI Assisted Plant Disease Detection, Crop, and Fertilizer Recommender System
+
+![Project Image](https://github.com/Srivastava0109Yash/AI-Assissted-Plant-Disease-Detection-Crop-and-Fertilizer-Recommender-System/blob/main/Images/ai_disease_detection.jpg)
+
+## Overview
+
+This project aims to provide a comprehensive solution for plant health management by leveraging artificial intelligence (AI) techniques. It includes functionalities for detecting plant diseases, recommending suitable crops based on soil and climate conditions, and suggesting appropriate fertilizers for optimal plant growth.
+
+## Features
+
+- **Plant Disease Detection**: Utilizes machine learning models to accurately identify diseases affecting plants by analyzing input images of leaves or plant parts.
+- **Crop Recommendation**: Recommends suitable crops for cultivation based on geographical location, soil type, and climate conditions.
+- **Fertilizer Recommender System**: Provides recommendations for fertilizers tailored to specific crops and soil nutrient requirements.
+
+## Technologies Used
+
+- **Python**: Primary programming language for development.
+- **TensorFlow and Keras**: Frameworks used for building and training machine learning models for disease detection.
+- **OpenCV**: Library for image processing and manipulation.
+- **Scikit-learn**: Used for data preprocessing and modeling tasks.
+- **Flask**: Web framework for building the user interface and backend services.
+- **HTML/CSS/JavaScript**: Frontend development technologies for creating the user interface.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Srivastava0109Yash/AI-Assissted-Plant-Disease-Detection-Crop-and-Fertilizer-Recommender-System.git
+
+2. Install Dependencies :
+   ```bash
+   pip install -r requirements.txt
+
+## Run Application :
+   ```bash
+   python app.py
+
+
+

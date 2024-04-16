@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #3498DB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  max-width: 90%; /* Set a maximum width for the container */
+}
+
+.container:hover {
+  /* 007BFF */
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 1);
+}
+
+.scanner-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the button horizontally */
+}
+
+h1 {
+  margin: 0;
+}
+
+#preview {
+  width: 100%; /* Make the video element responsive */
+  max-width: 300px; /* Set a maximum width for the video element */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 25px;
+}
+
+#errorMessage {
+  color: red;
+}
+
+#scanButton {
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498DB;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 8px;
+}
+
+#scanButton:hover {
+  background-color: #0056b3;
+}
+
+.logo {
+  height: 90px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small devices (phones, 320px and up) */
+@media (min-width: 320px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 70%;
+  }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 50%;
+  }
+}

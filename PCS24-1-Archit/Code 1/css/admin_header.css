@@ -1,0 +1,133 @@
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3498DB;
+  color: #FFFFFF;
+  padding: 5px 20px;
+  text-align: center;
+  margin-bottom: 2%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.logo-container img {
+  max-width: 80px; /* Adjust the maximum width of the logo as needed */
+}
+
+.dashboard-title {
+  margin: 0;
+  font-size: 20px; /* Reduced font size */
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: transparent;
+  color: inherit;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content a,.dropdown-content p {
+  display: block;
+  padding: 8px 10px; /* Reduced padding */
+  text-decoration: none;
+  color: #333333;
+}
+
+.dropdown-content a,.dropdown-content p:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Logout Button */
+.logout-btn {
+  color: #DC3545; /* Error Color (Red) */
+}
+
+
+  /* CSS styles for the photo container */
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc; /* Adding a border around the photo container */
+    height: 140px;
+    width: auto;
+    background-color: #f2f2f2;
+    padding: 5px; /* Optional padding to create some space around the image */
+  }
+  
+  /* CSS styles for the photo within the container */
+  .photo-container img {
+    width: auto;
+    height: 139PX;
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+  }
+
+
+
+
+/* Responsive Section */
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo-container img {
+    max-width: 60px;
+  }
+
+  .dashboard-title {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .dropdown-content {
+    top: auto;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .dashboard-header {
+    padding: 10px 20px;
+  }
+}
+
+/* Larger Screens (laptops and desktops) */
+@media screen and (min-width: 1024px) {
+  .dashboard-header {
+    padding: 5px 40px; /* Increased padding */
+  }
+}  

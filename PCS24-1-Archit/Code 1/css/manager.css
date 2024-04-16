@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2; /* Set a light background color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Add this CSS to style the tab button and content */
+.tab-container {
+  display: flex;
+  width: 100%;
+}
+
+.tab-button {
+  flex: 1;
+  background-color: rgb(41, 128, 185);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #3498db;
+}
+
+.tab-button.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.tab-content {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Add styles for the "Add Employee" tab content */
+#addEmployeeTab h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#addEmployeeTab form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#addEmployeeTab form label {
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#addEmployeeTab form input[type="text"],
+#addEmployeeTab form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+#addEmployeeTab form input[type="text"]:focus,
+#addEmployeeTab form input[type="email"]:focus {
+  border-color: #3498db;
+}
+
+#addEmployeeTab form input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#addEmployeeTab form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+
+/* Add this CSS to style the "Add Retailer" tab button and content */
+#addRetailerTab h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#addRetailerTab form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#addRetailerTab form label {
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#addRetailerTab form input[type="text"],
+#addRetailerTab form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+#addRetailerTab form input[type="text"]:focus,
+#addRetailerTab form input[type="email"]:focus {
+  border-color: #3498db;
+}
+
+#addRetailerTab form input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#addRetailerTab form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+
+
+/* Add this CSS to style the "Add Employee" form */
+#addEmployeeTab form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#addEmployeeTab form label {
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#addEmployeeTab form input[type="text"],
+#addEmployeeTab form input[type="password"],
+#addEmployeeTab form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+#addEmployeeTab form input[type="text"]:focus,
+#addEmployeeTab form input[type="password"]:focus,
+#addEmployeeTab form select:focus {
+  border-color: #3498db;
+}
+
+#addEmployeeTab form input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#addEmployeeTab form input[type="submit"]:hover {
+  background-color: #2980b9;
+}

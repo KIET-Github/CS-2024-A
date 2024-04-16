@@ -1,0 +1,93 @@
+.main-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+
+  .left-section {
+    margin: 1%;
+    flex: 0.65;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #ccc;
+    margin-left: 5%;
+    overflow-y: auto; /* Add vertical scrolling */
+  }
+  
+  .table-container {
+    max-height: 80vh; /* Set maximum height to allow scrolling */
+  }
+  
+  #report-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333; /* Add border to the table */
+    background-color: #d4d4d4; /* Set background color */
+  }
+  
+  #report-table th{
+    padding: 8px;
+    text-align: left;
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #333;
+  }
+  #report-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #333; /* Add border to table cells */
+  }
+  
+  
+  
+
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Add this line */
+    align-items: center;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    flex: 0.4;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #ccc;
+    /* position: relative; */
+  }  
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid;
+    height: 200px;
+    width: 300px;
+  }
+
+  .image-section img{
+    height: 190px;
+  }
+  
+  .details-section {
+    padding-left: 20px;
+  }
+  
+  .details-section p {
+    margin-bottom: 10px;
+  }
+  
+  .details-section label {
+    font-weight: bold;
+    margin-right: 10px;
+  } 
+
+
+  .return-button {
+    position: absolute;
+    right: 0;
+    top:50%;
+    /* transform: translateY(-50%); */
+    display: none;
+  }

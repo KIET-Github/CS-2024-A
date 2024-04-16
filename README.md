@@ -4,14 +4,14 @@ This repository contains the details of major project created by the students of
 <b>#NOTE</b><br>
 This repository contains the details of students under following faculty mentor only.<br>
 <ul>
-  <li>Dr. Ajay Kumar Shrivastava</li>
-  <li>Mr. Raj Kumar</li>
-  <li>Dr. Gaurav Dubey</li>
-  <li>Dr. Harsh Khatter</li>
-  <li>Mr. Abhishek Goyal</li>
-  <li>Ms. Anshula Gupta</li>
-  <li>Ms. Neha Shukla</li>
-  <li>Mr. Anurag Tewari</li>
+  <li>Dr. Ajay Kumar Shrivastava: 22,27</li>
+  <li>Mr. Raj Kumar: 61,63,64</li>
+  <li>Dr. Gaurav Dubey: 16,32,42</li>
+  <li>Dr. Harsh Khatter: 1,3,6,9,13</li>
+  <li>Mr. Abhishek Goyal: 11,37,43,46</li>
+  <li>Ms. Kalpana Sagar: 5,60</li>
+  <li>Ms. Neha Shukla: 7,49,58,62,75</li>
+  <li>Mr. Anurag Tewari: 29</li>
 </ul>
   
 <b>#How to access</b><br>

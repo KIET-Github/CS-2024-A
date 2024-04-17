@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2; /* Set a light background color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+  /* Input UID Section */
+  .input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .input-area input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 20%;
+  } 
+  
+  .input-area button {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    position: absolute;
+    right: 32%;
+  }
+  
+  .input-area button:hover {
+    background-color: #2980B9;
+  }
+
+  #generateBtn {
+    background-color: #3498DB;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    position: absolute;
+    right: 32%;
+    text-decoration: none;
+  }
+  
+  #generateBtn:hover {
+    background-color: #2980B9;
+    text-decoration: none;
+  }
+  
+  /* Product Info Section */
+  .container {
+    margin: 0 auto;
+    width: 75%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .product-info img {
+    max-height: 300px;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .details {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .detail-info {
+    margin-bottom: 2%;
+  }
+  
+  .sold-status {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    color: #fff;
+  }
+  
+  .sold-status.sold {
+    background-color: #dc3545;
+  }
+  
+  .sold-status.unsold {
+    background-color: #28a745;
+  }
+  
+  .sold-status.resold {
+    background-color: #333333;
+  }
+  
+  .rep-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .report-button {
+    align-items: center;
+    display: inline-block;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  
+  .report-button:hover {
+    background-color: #333333;
+  }
+  
+  .feedback {
+    margin-top: 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.feedback label {
+  width: 180px;
+  text-align: left;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.feedback input,
+.feedback textarea {
+    width: 90%;
+    resize: vertical;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+} 
+  
+.feedback button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1px;
+    border-radius: 20px;
+  }
+  
+  .feedback button:hover {
+    background-color: #0056b3;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating label {
+    margin-right: 10px;
+}
+
+.rating .stars {
+    font-size: 24px;
+}
+
+.rating .star {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.rating .star:hover,
+.rating .star.active {
+    color: #ffc107; /* Change color for the selected star */
+}

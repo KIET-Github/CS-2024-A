@@ -1,0 +1,97 @@
+    .report-container {
+    background-color: #F9F9F9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Set a maximum width for the report container */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #3498DB;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980B9; /* Slightly darker shade on hover */
+}
+
+
+/* Additional CSS for the radio buttons within .radio-group */
+.radio-section .radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .radio-section .radio-group input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    -moz-appearance: none;
+    border: 2px solid #3498DB;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .radio-section .radio-group label {
+    font-size: 16px;
+  }
+  
+  .radio-section .radio-group input[type="radio"]:checked {
+    background-color: #333;
+  }     
+
+
+  input[type="radio"] {
+    display: none;
+  }
+  input[type="radio"] + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  input[type="radio"] + label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  /* Style the custom radio button when selected */
+  input[type="radio"]:checked + label::before {
+    background-color: #2196F3;
+    border-color: #2196F3;
+  }

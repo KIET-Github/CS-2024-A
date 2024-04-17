@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TC ADMIN</title>
+  <link rel="stylesheet" type="text/css" href="../css/feedback_admin.css">
+  <link rel="stylesheet" href="../css/admin_header.css">
+  <link rel="stylesheet" href="../css/admin_footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" type="image/ico" href="../images/template/favicon.ico">
+</head>
+<body>
+  <header class="dashboard-header">
+    <div class="logo-container">
+      <img src="../images/template/logo.png" alt="Company Logo">
+    </div>
+    <h1 class="dashboard-title">FEEDBACK ADMIN</h1>
+    <div class="dropdown">
+      <button class="dropdown-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="photo-container">
+          <img src="../images/employee/201862.png" alt="Employee Photo" width="240" height="60">
+        </div>
+        <p id="ename">Name</p>
+        <p id="email">Email</p>
+        <p id="emp-id"></p>
+        <p id="e-designation">Designation</p>
+        <!-- <a href="../pages/feedback.html">Feedback Portal</a> -->
+        <!-- <a href="../pages/report_portal.html">Report Portal</a> -->
+        <a href="#" class="logout-button">Logout</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+  <div class="tab-container">
+    <button class="tab-button active" onclick="openTab('reportTab')">Report</button>
+    <button class="tab-button" onclick="openTab('feedbackTab')">Feedback</button>
+  </div>
+
+  <div id="reportTab" class="tab-content active">
+    <h3>Report Section</h3>
+    <div class="report-columns">
+      <div class="report-column section1" id="sec1Rep">
+        <h3>All Reports</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Serial No</th>
+              <th>Ticket No</th>
+              <th>Product ID</th>
+              <th>Retailer ID</th>
+              <th>Ticket Status</th>
+              <th>Open</th>
+            </tr>
+          </thead>
+          <tbody id="reportTableBody">
+            <!-- Table rows will be populated here -->
+          </tbody>
+        </table>
+      </div>
+      <div class="report-column section2" id="sec2Rep">
+        <h3>Ticket Details</h3>
+        <div class="ticket-details">
+          <br>
+          <img id="ticketImage" src="" alt="Ticket Image">
+          <p><strong>UID:</strong> <span id="uid"></span></p>
+          <p><strong>Report Time:</strong> <span id="reportTime"></span></p>
+          <p><strong>Customer Name:</strong> <span id="customerName"></span></p>
+          <p><strong>Customer Email:</strong> <span id="customerEmail"></span></p>
+          <p><strong>Message:</strong> <span id="message"></span></p>
+          <p><strong>Shop Name:</strong> <span id="shopName"></span></p>
+          <p><strong>Reason:</strong> <span id="reason"></span></p>
+          <p><strong>Ticket Status:</strong> <span id="ticketStatus"></span></p>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+  
+  <div id="feedbackTab" class="tab-content">
+    <div class="feedback-section">
+      <div class="form-container">
+        <div class="productSearchBox form-box">
+          <form id="productIdCheckForm">
+            <label for="productId">Product Id:</label>
+            <input type="text" id="productId" name="productId" required><br>
+            <input type="submit" value="Search">
+          </form>
+        </div>
+        <br>
+        <div class="ResultBox form-box">
+          <div class="section1">
+            <img src="../images/apparel/coat1.jpeg" alt="Product Image">
+            <label>Product Name: </label>Woman Coat
+            <label for="rating">Rating</label>
+            <span>3.6</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <div class="section2">
+            <h3>Section 2</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>UID</th>
+                  <th>Rating</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Message</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>UID001</td>
+                  <td>3.6</td>
+                  <td>Rahul</td>
+                  <td>rahul@example.com</td>
+                  <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                </tr>
+                <tr>
+                  <td>UID002</td>
+                  <td>4.2</td>
+                  <td>Smith</td>
+                  <td>smith@example.com</td>
+                  <td>Nulla facilisi. Vivamus nec elit sit amet felis malesuada...</td>
+                </tr>
+                <tr>
+                  <td>UID003</td>
+                  <td>4.8</td>
+                  <td>Priya</td>
+                  <td>priya@example.com</td>
+                  <td>Suspendisse potenti. Nunc vitae laoreet arcu.</td>
+                </tr>
+                <tr>
+                  <td>UID004</td>
+                  <td>3.0</td>
+                  <td>Rohan</td>
+                  <td>rohan@example.com</td>
+                  <td>Proin auctor, odio a interdum feugiat, dui dolor facilisis erat.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  
+  
+</main> 
+
+  <footer class="footer">
+    <p>In case of any queries:</p>
+    <p>Contact us at company@example.com | Phone: 123-456-7890</p>
+  </footer>
+
+  <script src="../js/feedback_admin.js"></script>
+  <script src="../js/admin_header.js"></script>
+  
+</body>
+</html>
+  

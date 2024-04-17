@@ -1,0 +1,12 @@
+uid,Product_Name,Retailer_Name,Brand_Name,Batch_Name,photo_name,sold-status
+0101,Sample Product,Sample Retailer,Sample Brand,Sample Batch,sample.png,UNSOLD
+12345,Women Coat,Kanji Bhai Clothing,CK Coats,March 2023,coat1.jpeg,SOLD
+2,Mens Jeans,Kanji Bhai Clothing,Denimz,Feb 2022,m_jeans1.jpg,SOLD
+3,HBG3N1FP,M45C4E3S4J,AXWAF0,4WE2,photo_3.jpg,UNSOLD
+4,W3AA1LPO,5K8126WEM6,B3V2SC,MIE1,photo_4.jpg,UNSOLD
+5,EHXM88BJ,9FLOLL010G,CZOTI1,FT21,photo_5.jpg,RESOLD
+6,YRP703TD,O8QLHKSIKN,NPTB7I,YCA0,photo_6.jpg,SOLD
+7,ZTA3J0K3,D1JM66RHYQ,NGT2EI,QAVD,photo_7.jpg,SOLD
+8,OLOHWJO3,V4W0GNW3YJ,V81B75,0AEB,photo_8.jpg,UNSOLD
+9,QFV6HJTQ,IAO52W9N9D,VLVZHH,YS4O,photo_9.jpg,UNSOLD
+10,1D49CXNX,SG8OJR667F,UCNF5P,14C0,photo_10.jpg,RESOLD

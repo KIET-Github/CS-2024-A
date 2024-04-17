@@ -1,0 +1,82 @@
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  height: calc(100% - 8rem); /* Adjust the height as needed */
+}
+
+.svg-container {
+  flex-shrink: 0;
+}
+
+.text-container {
+  flex-grow: 1;
+  max-width: 40%; /* Adjust the width as desired */
+}
+
+.text-container .text-4xl {
+  font-size: 3.5rem; /* Adjust the font-size as needed */
+}
+
+.svg-container img {
+  width: 40rem; /* Adjust the width as needed */
+}
+.analyze-button {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    align-items: center; /* Align items to the center vertically */
+  }
+
+  .text-container {
+    max-width: 90%; /* Adjust the width as desired */
+    margin-bottom: 5rem; /* Increase the margin bottom for space */
+  }
+
+  .text-container .text-4xl {
+    font-size: 2.5rem;
+  }
+
+  .svg-container img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    align-items: center; /* Align items to the center vertically */
+  }
+
+  .text-container {
+    max-width: 90%; /* Adjust the width as desired */
+    margin-bottom: 9rem; /* Increase the margin bottom for space */
+  }
+
+  .text-container .text-4xl {
+    font-size: 3.5rem;
+  }
+
+  .svg-container img {
+    width: 80%;
+  }
+}

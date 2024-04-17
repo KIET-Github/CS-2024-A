@@ -1,0 +1,33 @@
+Background Color:
+
+#3498DB (Light and vibrant shade of blue)
+Primary Color (Buttons and Headings):
+
+#007BFF (Deep blue for important elements)
+Secondary Color (Form Elements):
+
+#FFFFFF (White for form backgrounds)
+#333333 (Dark Grey for input borders and subtle contrasts)
+Accent Color:
+
+#28A745 (Green for highlighting positive feedback)
+Error Color:
+ 
+#DC3545 (Red for drawing attention to errors or critical warnings)
+
+
+
+Main Text Color:
+
+Black: #000000 (Classic and high contrast for regular text)
+Secondary Text Color:
+
+Dark Grey: #333333 (Slightly lighter than black, suitable for subheadings or less prominent text)
+Accent Text Color:
+
+White: #FFFFFF (Useful for highlighted or emphasized text that needs to stand out)
+Error Text Color:
+
+Red: #FF0000 (To draw attention to errors or important warnings)
+
+

@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-content {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-container {
+  display: flex;
+  width: 100%;
+}
+
+.tab-button {
+  flex: 1;
+  background-color: rgb(41, 128, 185);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #3498db;
+}
+
+.tab-button.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+#tab1 form,
+#tab2 form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#tab1 form label,
+#tab2 form label {
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#tab1 form input[type="text"],
+#tab1 form input[type="file"],
+#tab2 form input[type="text"],
+#tab2 form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+#tab1 form input[type="text"]:focus,
+#tab1 form input[type="file"]:focus,
+#tab2 form input[type="text"]:focus,
+#tab2 form input[type="file"]:focus {
+  border-color: #3498db;
+}
+
+#tab1 form input[type="submit"],
+#tab2 form input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#tab1 form input[type="submit"]:hover,
+#tab2 form input[type="submit"]:hover {
+  background-color: #2980b9;
+}

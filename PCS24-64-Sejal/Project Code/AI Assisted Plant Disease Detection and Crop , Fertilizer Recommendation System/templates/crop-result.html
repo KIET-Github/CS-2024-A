@@ -1,0 +1,33 @@
+{% extends 'layout.html' %} {% block body %}
+
+<style>
+  html body {
+    background: linear-gradient(135deg, rgb(249, 246, 246),red);
+  }
+  .mt-0 {
+  margin-top: 50 !important;
+}
+
+</style>
+
+<div id="google_element"></div>
+  <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate()
+        {
+            new google.translate.TranslateElement("google_element");
+        }
+    </script>
+
+<div class="container py-2 mx-auto my-50 h-10 " style="margin: 12rem;">
+  <div class="row">
+      <div class="col-sm py-2 py-md-3">
+          <div class="card card-body" style="justify-content: center ;color: white; ">
+               <h1 class="text-center"><b>You should grow <i>{{ prediction }} </i>in your farm</b></h1>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,116 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- banner -->
+<section class="banner_w3lspvt" id="home">
+	<div class="csslider infinity" id="slider1">
+	
+				<div class="banner-top">
+					<div class="overlay">
+						<div class="container">
+							<div class="w3layouts-banner-info text-center">
+								<h3 class="text-wh">AI Assisted Plant Disease Detection, Fertilizer and Crops Recommendation</h3>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+</section>
+<!-- //banner -->
+<div id="google_element"></div>
+  <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate()
+        {
+            new google.translate.TranslateElement("google_element");
+        }
+    </script>
+
+
+</html>
+<!-- core values -->
+<section class="core-value py-5">
+	<div class="container py-md-4">
+		<div class="row core-grids">
+			<div class="col-lg-6 core-left">
+				<img src="{{ url_for('static', filename='images/agriculture.jpg') }}" class="img-fluid" alt="images/agriculture.jpg" />
+			</div>
+			<div class="col-lg-6 core-right">
+				<h3 class="mt-4">ADVANCED AGRICULTURE, BETTER LIVES, AND CULTIVATING CROPS TO HELP FARMERS RISE IN PROFIT..</h3>
+				<p class="mt-3">We support you throughout the full agricultural process by utilising cutting-edge machine learning and deep learning technology. Make wise choices based on your knowledge of the local population, the elements affecting your crops, and how to keep them healthy for a super great successful production.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //core values -->
+
+<!-- Products & Services -->
+<section class="blog py-5">
+	<div class="container py-md-5">
+		<h3 class="heading mb-sm-5 mb-4 text-center"> Tools Provided</h3>
+		<div class="row blog-grids">
+			<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
+				<img src="{{ url_for('static', filename='images/99.jpg') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('crop_recommend') }}">
+					<div class="blog-info">
+
+						<h4>Crops Recommendation</h4>
+
+						<p class="mt-2"> Recommendation regarding the crops that should be grown that are most suited for the circumstances</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+				<img src="{{ url_for('static', filename='images/farmer.jpg') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('fertilizer_recommendation') }}">
+					<div class="blog-info">
+						<h4>Fertilizer Recommendation</h4>
+						<p class="mt-2">Recommendation regarding the fertiliser type best suited for the specific soil and the suggested crops</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5">
+
+				<img src="{{ url_for('static', filename='images/survey.jpg') }}" class="img-fluid" alt="">
+
+				<!-- <img src="images/s4.jpg" class="img-fliud" alt="" /> -->
+				<a href="{{ url_for('disease_prediction') }}">
+					<div class="blog-info">
+						<h4>Crops Disease Prediction</h4>
+						<p class="mt-2">Predicting the name of a crops disease,the causes of disease, and the remedies</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--chatbot code-->
+
+<div id="chatbot-container">
+  <iframe
+    allow="microphone;"
+    width="500"
+    height="500"
+    src="https://console.dialogflow.com/api-client/demo/embedded/d546aaa6-31cf-4a68-b9b7-059600855ce9">
+  </iframe>
+</div>
+<script>
+	#chatbot-container {
+		position: fixed;
+		bottom: 90px; /* Adjust the positioning as per your desired orientation */
+		right: 20px; /* Adjust the positioning as per your desired orientation */
+		width: 350px;
+		height: 430px;
+		background-color: #fff; /* Replace with your desired color */
+		border-radius: 10px;
+		display: none;
+		z-index: 9999;
+	  }
+<script>
+
+  <!--Start fixed-image-->
+  
+
+{% endblock %}

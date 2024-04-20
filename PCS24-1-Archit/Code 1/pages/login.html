@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TC - LOGIN</title>
+  <link rel="stylesheet" type="text/css" href="../css/login.css">
+  <link rel="icon" type="image/ico" href="../images/template/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head> 
+<body>
+  <div class="page-container">
+    <div class="logo-container">
+      <img src="../images/template/logo.png" alt="Logo">
+    </div>
+
+    <div class="login-container">
+      <h1>TC - ADMIN</h1>
+      <form id="login-form">
+        <div class="input-container">
+          <input type="text" id="employee-id" name="employee-id" placeholder="Employee Id" required autofocus>
+        </div>
+
+        <div class="input-container">
+          <div class="password-container">
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <div class="password-toggle" onmouseover="togglePasswordVisibility(true)" onmouseout="togglePasswordVisibility(false)">
+              <i class="fas fa-eye"></i>
+            </div>
+          </div>
+          <div id="caps-lock-warning">Caps Lock is ON</div>
+        </div>
+        <button type="submit" id="login-button">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../js/login.js"></script>
+</body>
+</html>

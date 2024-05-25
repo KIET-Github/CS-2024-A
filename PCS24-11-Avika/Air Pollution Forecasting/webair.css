@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sticky Header */
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px 34px;
+    transition: background-color 0.2s, color 0.2s; /* Add transition effect */
+    font-size: 20px;    
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(242, 244, 243);
+    display: block; /* Add this to make the whole <li> clickable */
+}
+
+.nav-list li:hover {
+    background-color: white; /* Change background color on hover */
+}
+
+.nav-list li:hover a {
+    color: black; /* Change text color on hover */
+}
+
+.search-bar {
+    width: 50%;
+    text-align: right;
+    border-radius: 10px; /* Change the border radius to 10px or any other value you prefer */
+    padding: 8px 8px 0px 0px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+}
+
+    .search-button {
+        padding: 8px 16px;
+        background-color: #bf6039;
+        color: white;
+        border: none;
+        border-radius: 10px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('po.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* ... (rest of your CSS remains the same) ... */
+
+/* ... (rest of your CSS remains the same) ... */
+
+.heading{
+   
+
+}
+.mainheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 270px 0px 0px 20px;
+    font-size: 70px;
+
+}
+.calculate-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add border-radius */
+    background-color: #bf6039; /* Button background color */
+    color: white; /* Button text color */
+    border:2px;
+    border-color: aliceblue;
+    cursor: pointer;
+    transition: transform 0.2s; /* Add transition effect */
+}
+
+.calculate-button:hover {
+    transform: scale(1.2); /* Increase size on hover */
+}
+.aqi-display{
+
+}
+.rtq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 70px 0px 0px 20px;
+    font-size: 40px;
+
+}
+.lo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 30px 0px 0px 20px;
+
+
+}
+.va{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 10px 0px 0px 20px;
+
+}
+#location{
+   
+
+}
+#aqi-value{
+    
+
+}
+.historical-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 70px 0px 0px 20px;
+    font-size: 40px;
+    
+
+    
+
+}
+.gif-container {
+    text-align: center;
+    padding: 20px;
+
+   /* Background color for the container */
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 70px 0px 0px 20px;
+    font-size: 20px;
+
+}
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 70px 0px 0px 20px;
+    font-size: 20px;
+
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 20px;
+    font-size: 10px;
+}
+/* Existing CSS styles here */
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webair.css">
+    <title>Air Pollution Forecasting</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="sticky">
+        <nav class="navbar background">
+            <!-- Inside your existing navbar -->
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="aqi.html">AQI</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search..." name="search" id="search">
+                <button class="search-button">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content background">
+            <div class="heading">
+                <h1 class="mainheading">Welcome to Air Pollution Forecasting</h1>
+                <button class="calculate-button">Calculate AQI</button>
+            </div>
+
+            <div class="aqi-display">
+                <h2 class="rtq">Real-time AQI</h2>
+                <p class="lo">Location: <span id="location">National Capital Area</span></p>
+                <-- <p class="va">AQI Value: <span id="aqi-value">150</span></p> -->
+            </div>
+
+            <div class="historical-data">
+
+                <canvas id="aqiChart" width="400" height="200"></canvas>
+            </div>
+
+             <!-- Real-time News Section -->
+            <div class="real-time-news">
+                <h2>News and Updates</h2>
+                <ul id="news-list"></ul>
+            </div>
+            <!-- End of Real-time News Section -->
+
+            <!-- Additional Sections (Add more as needed) -->
+            <div class="about-us">
+                <h2>About Us</h2>
+                <!-- Add content about your organization -->
+            </div>
+
+
+
+<!-- End of Real-time News Section -->
+<style>
+    .real-time-news {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: transparent;
+    }
+
+    .real-time-news h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: White; /* Change the color to your desired one (e.g., orange) */
+    }
+
+    .real-time-news ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .real-time-news li {
+        margin: 10px 0;
+    }
+
+    .real-time-news a {
+        text-decoration: none;
+        color: #0073e6;
+        font-weight: none;
+    }
+
+    .real-time-news a:hover {
+        color: #0058a1;
+    }
+</style>
+
+
+
+            <!-- Add more sections as needed -->
+        </section>
+    </main>
+
+    <footer class="foot">
+        <p>&copy; 2023 Air Pollution Forecasting. All rights reserved.</p>
+    </footer>
+
+            <!-- Add more sections as needed -->
+
+
+
+
+    <script>
+        // Sample data for monthly AQI values in 2023 (you should replace this with your actual data)
+        const monthlyAqiData = [354, 223, 196, 340, 450, 635, 325, 410, 500, 595, 726, 815];
+
+        // Create a chart using Chart.js
+        const ctx = document.getElementById("aqiChart").getContext("2d");
+        new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: [
+                    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                ],
+                datasets: [
+                    {
+                        label: "AQI level in 2024",
+                        data: monthlyAqiData,
+                        backgroundColor: "rgba(75, 192, 192, 0.2)",
+                        borderColor: "rgba(75, 192, 192, 1)",
+                        borderWidth: 2,
+                        pointRadius: 4,
+                        pointBackgroundColor: "rgba(75, 192, 192, 1)",
+                    },
+                ],
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                    },
+                },
+            },
+        });
+          // Fetch and display real-time news
+        $.ajax({
+            url: 'https://newsapi.org/v2/everything',
+            type: 'GET',
+            data: {
+                apiKey: '9dadc9cfc75a44d2bd5d156ad8563dab',
+                q: 'air pollution NCR', // Adjust the search query as needed
+            },
+            success: function (data) {
+                const newsList = document.getElementById('news-list');
+                data.articles.slice(0, 5).forEach(function (article) {
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = article.url;
+                    a.textContent = article.title;
+                    li.appendChild(a);
+                    newsList.appendChild(li);
+                });
+            },
+        });
+    </script>
+
+</body>
+</html>

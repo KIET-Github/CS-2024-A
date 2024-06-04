@@ -1,0 +1,16 @@
+/.cache/
+/dev/
+/node_modules/
+/notes/
+/scripts/bin/
+/src/data/data.json
+*.swp
+/build
+src/data.json
+bq-*.csv
+*.pyc
+
+
+# Added by cargo
+
+/target

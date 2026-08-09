@@ -1,0 +1,18 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+const initialState={
+    categories:[],
+    transaction:[]
+}
+export const expenseSlice=createSlice({
+    name:'expense',
+    initialState,
+    reducers:{
+        getFeedback:(state)=>{
+         //get code
+        }
+    }
+})
+
+export const {getFeedback}=expenseSlice.actions;
+export default expenseSlice.reducer;

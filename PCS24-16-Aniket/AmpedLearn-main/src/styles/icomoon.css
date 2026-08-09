@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./icomoon.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stack-overflow:before {
+  content: "\e900";
+}
+.icon-github-alt:before {
+  content: "\e901";
+}
+.icon-github:before {
+  content: "\e902";
+}
+.icon-google:before {
+  content: "\e903";
+}
+.icon-wikipedia-w:before {
+  content: "\e904";
+}
+.icon-reddit-alien:before {
+  content: "\e905";
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-remove:before {
+  content: "\e906";
+}
+.icon-times:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-link-2:before {
+  content: "\e908";
+}
+.icon-trending-up:before {
+  content: "\e909";
+}
+.icon-google1:before {
+  content: "\ea88";
+}
+.icon-github1:before {
+  content: "\eab0";
+}
+.icon-wikipedia:before {
+  content: "\eac8";
+}
+.icon-stackoverflow:before {
+  content: "\ead0";
+}
